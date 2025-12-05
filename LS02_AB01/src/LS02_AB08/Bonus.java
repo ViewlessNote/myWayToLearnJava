@@ -2,6 +2,8 @@ package LS02_AB08;
 
 import java.util.Scanner;
 
+// Aufgabe 8.3 Bonusberechnung
+
 public class Bonus {
         private double jahresUmsatz;
         private double endBonus;
