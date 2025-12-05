@@ -3,6 +3,18 @@ package LS02_AB08;
 import java.util.Scanner;
 
 // Aufgabe 8.3 Bonusberechnung
+// Ein Unternehmen zahlt seinen Mitarbeitern einen Jahresbonus, der sich
+// nach dem Jahresumsatz und der Dauer der Betriebszugehörigkeit richtet.
+// Schreiben Sie ein Programm, das den Jahresbonus berechnet.
+// Die Berechnung erfolgt nach folgenden Regeln:
+// - Liegt der Jahresumsatz unter 150.000 Euro und die Betriebszugehörigkeit
+//   unter 5 Jahren, beträgt der Bonus 2 % des Jahresumsatzes.
+// - Liegt der Jahresumsatz unter 150.000 Euro und die Betriebszugehörigkeit
+//   mindestens 5 Jahre, beträgt der Bonus 2,5 % des Jahresumsatzes.
+// - Liegt der Jahresumsatz mindestens 150.000 Euro und die Betriebszugehörigkeit
+//   unter 5 Jahren, beträgt der Bonus 3,5 % des Jahresumsatzes.
+// - Liegt der Jahresumsatz mindestens 150.000 Euro und die Betriebszugehörigkeit
+//   mindestens 5 Jahre, beträgt der Bonus 4 % des Jahresumsatz
 
 public class Bonus {
         private double jahresUmsatz;
